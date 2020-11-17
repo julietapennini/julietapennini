@@ -1,26 +1,13 @@
-/*:root{
-    --rosa
-}*/
-
-*{
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
-}
-
 #about-section{
-    width: 100%;
-    height: 990px;
     background-color: greenyellow;
     display: flex;
     justify-content: center;
-    align-items: center;
-    padding: 130px 40px 110px;
+    padding: 10% 2%;
 }
 
 .about-container{
-    width: 1100px;
-    height: 750px;
+    width: 100%;
+    max-width: 1100px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -29,14 +16,48 @@
 }
 
 .about-description{
-    width: 500px;
-    height: 250px;
+    width: 45%;
     background-color: blue;
-    align-items: center;
 }
 
-.about-img{
+img{
     width: 500px;
     height: 500px;
-    background-color: blue;
+}
+
+.name{
+    font-family: "LostaMasta-Regular";
+    font-size: 4em;
+}
+
+@media (max-width: 1100px){
+    
+    .about-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .about-description{
+        width: 100%;
+        max-width: 1100px;
+        background-color: yellowgreen;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media (max-width: 580px){
+    .skills-item{
+        width: 300px;
+        height: 300px;
+        background-color: blue;
+    }
+    
+    img{
+        width: 300px;
+        height: 300px;
+    }
 }

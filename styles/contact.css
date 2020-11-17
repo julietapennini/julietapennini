@@ -1,63 +1,41 @@
-/*:root{
-    --rosa
-}*/
-
-*{
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
-}
-
 #contact-section{
-    width: 100%;
-    height: 985px;
-    padding: 130px 40px 110px;
-    background-color: greenyellow;
+    background-color:greenyellow;
     display: flex;
     justify-content: center;
-    align-items: center;   
-}
-
-.contact-container{
-    width: 1100px;
-    height: 745px;
-    background-color: black;
-    color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center; 
+    padding: 10% 2%; 
 }
 
 .media-container{
-    width: 980px;
-    height: 585px;
     background-color: blue;
-    flex-direction: row;
-    justify-content: space-between;
     display: flex;
-    flex-direction: row;
+    justify-content: space-between;
 }
 
 /*Links de contacto*/
 .contact-column{
-    width: 470px;
-    height: 585px;
+    width: 48%;
+    max-width: 1100px;
     background-color: pink;
-}
-
-.contact-social-list{
-    list-style: none;
-}
-
-.social-link{
-    text-decoration: none;
-    color: red;
 }
 
 /*Formulario*/
 .form-column{
-    width: 470px;
-    height: 585px;
+    width: 48%;
+    max-width: 1100px;
     background-color: pink;
 }
 
+@media (max-width: 1100px){
+    .media-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .contact-column{
+        width: 100%;
+        margin-bottom: 10%;
+    }
+    .form-column{
+        width: 100%;
+    }
+}

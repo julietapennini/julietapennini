@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Julieta Pennini</title>
 
+    <link rel="stylesheet" href="./styles/layout.css"/>
     <link rel="stylesheet" href="./styles/header.css"/>
     <link rel="stylesheet" href="./styles/about.css"/>
     <link rel="stylesheet" href="./styles/skills.css"/>
@@ -16,17 +17,19 @@
 </head>
 <body>
     <!---Comienzo Header-->
-    <header class="nav-section">
-        <nav class="nav-menu">
-            <!---Menú de navegación-->
-            <ul class="nav-menu-list">
-                <li class="nav-item"><a href="#about-section" class="nav-link">Sobre mi</a></li>
-                <li class="nav-item"><a href="#skills-section" class="nav-link">Conocimientos</a></li>
-                <li class="nav-item"><a href="#projects-section" class="nav-link">Proyectos</a></li>
-                <li class="nav-item"><a href="#contact-section" class="nav-link">Contacto</a></li>
-            </ul>
-            <!---Fin menú de navegación-->
-        </nav>
+    <header>
+        <div class="nav-section">
+            <nav class="column nav-menu">
+                <!---Menú de navegación-->
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="#about-section" class="nav-link">Sobre mi</a></li>
+                    <li class="nav-item"><a href="#skills-section" class="nav-link">Conocimientos</a></li>
+                    <li class="nav-item"><a href="#projects-section" class="nav-link">Proyectos</a></li>
+                    <li class="nav-item"><a href="#contact-section" class="nav-link">Contacto</a></li>
+                </ul>
+                <!---Fin menú de navegación-->
+            </nav>
+        </div>
     </header>
     <!---Final Header-->
 
@@ -34,14 +37,14 @@
 
         <!---Comienzo SECCION SOBRE MI-->
         <section id="about-section">
-            <div class="about-container">
+            <div class="colum about-container">
                 <div class="about-description">
                     <p class="name-intro">¡Hola! Soy</p>
                     <h1 class="name">Julieta Pennini</h1>
                     <p class="tellMeMore">Desarrolladora Frontend, diseñadora y amante de los gatos</p>
                     <a href="#projects" class="button">Lo que hago</a>
                 </div>
-                <img class="about-img">
+                <img src="./img/about.jpg" aria class="about-img">
             </div>
         </section>
         <!---Final SECCION SOBRE MI-->
@@ -49,7 +52,7 @@
 
         <!---Comienzo SECCION CONOCIMIENTOS-->
         <section id="skills-section">
-            <div class="skills-container">
+            <div class="column skills-container">
                 
                 <h2 class="skills-title">Mis conoci<wbr>mientos</h2>
                 <p class="skills-description">
@@ -59,37 +62,37 @@
 
                 <div class="skills-grid">
                     
-                    <div class="skills-grid-item html5">
+                    <div class="skills-item html5">
                         <i class="devicon_html5_plain colored skill_icon">
                         </i>
                         <p class="skill_title">HTML 5</p>
                     </div>
 
-                    <div class="skills-grid-item css3">
+                    <div class="skills-item css3">
                         <i class="skill-icon">
                         </i>
                         <p class="skill_title">CSS3</p>
                     </div>
 
-                    <div class="skills-grid-item sass">
+                    <div class="skills-item sass">
                         <i class="skill-icon">
                         </i>
                         <p class="skill_title">Sass</p>
                     </div>
 
-                    <div class="skills-grid-item javascript">
+                    <div class="skills-item javascript">
                         <i class="skill-icon">
                         </i>
                         <p class="skill_title">JavaScript</p>
                     </div>
 
-                    <div class="skills-grid-item react">
+                    <div class="skills-item react">
                         <i class="skill-icon">
                         </i>
                         <p class="skill_title">React</p>
                     </div>
 
-                    <div class="skills-grid-item git">
+                    <div class="skills-item git">
                         <i class="skill-icon">
                         </i>
                         <p class="skills-title">GIT</p>
@@ -105,7 +108,7 @@
         <!---Comienzo SECCION PROYECTOS-->
         <!---Cita-->
         <section class="quote-section">
-            <div class="quote-container">
+            <div class=" column quote-container">
                 <i class="quote-icon">icono</i>
                 <blockquote>
                     <p class="quote">
@@ -120,49 +123,49 @@
         <!---Proyectos-->
         <section id="projects-section">
 
-            <div class="projects_container">
+            <div class="column projects-container">
 
-                <h2 class="projects_title">Mis proyectos</h2>
-                <p class="projects_description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quae reprehenderit perspiciatis expedita ipsa odit? Expedita eligendi deleniti vel omnis itaque!
+                <h2 class="projects-title">Mis proyectos</h2>
+                <p class="projects-description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quae reprehenderit perspiciatis expedita ipsa odit? Expedita eligendi deleniti vel omnis itaque!
                 </p>
 
                 <!---Grilla de proyectos-->
-                <div class="projects_grid">
+                <div class="projects-grid">
 
-                <a href="#" target="_blank" rel="noopener noreferrer" class="proyects_grid_item" data-languaje="html-css">
-                    <img src="" alt class="protect_thumb">
-                    <p class="protect_name">Portfolio</p>
-                </a>
+                    <a href="#" target="_blank" rel="noopener noreferrer" class="proyects-item" data-languaje="html-css">
+                        <img src="" alt class="protect-thumb">
+                        <p class="protect-name">Portfolio</p>
+                    </a>
 
-                <a href="#" target="_blank" rel="noopener noreferrer" class="proyects_grid_item" data-languaje="javascript">
-                    <img src="" alt class="protect_thumb">
-                    <p class="protect_name">Generador de memes</p>
-                </a>
+                    <a href="#" target="_blank" rel="noopener noreferrer" class="proyects-item" data-languaje="javascript">
+                        <img src="" alt class="protect-thumb">
+                        <p class="protect-name">Generador de memes</p>
+                    </a>
 
-                <a href="#" target="_blank" rel="noopener noreferrer" class="proyects_grid_item" data-languaje="javascript">
-                    <img src="" alt class="protect_thumb">
-                    <p class="protect_name">Match 3</p>
-                </a>
+                    <a href="#" target="_blank" rel="noopener noreferrer" class="proyects-item" data-languaje="javascript">
+                        <img src="" alt class="protect-thumb">
+                        <p class="protect-name">Match 3</p>
+                    </a>
 
-                <a href="#" target="_blank" rel="noopener noreferrer" class="proyects_grid_item" data-languaje="javascript">
-                    <img src="" alt class="protect_thumb">
-                    <p class="protect_name">Controlador de gastos</p>
-                </a>
+                    <a href="#" target="_blank" rel="noopener noreferrer" class="proyects-item" data-languaje="javascript">
+                        <img src="" alt class="protect-thumb">
+                        <p class="protect-name">Controlador de gastos</p>
+                    </a>
 
-                <a href="#" target="_blank" rel="noopener noreferrer" class="proyects_grid_item" data-languaje="javascript">
-                    <img src="" alt class="protect_thumb">
-                    <p class="protect_name">Administrador de reuniones</p>
-                </a>
+                    <a href="#" target="_blank" rel="noopener noreferrer" class="proyects-item" data-languaje="javascript">
+                        <img src="" alt class="protect-thumb">
+                        <p class="protect-name">Administrador de reuniones</p>
+                    </a>
 
-                <a href="#" target="_blank" rel="noopener noreferrer" class="proyects_grid_item" data-languaje="react">
-                    <img src="" alt class="protect_thumb">
-                    <p class="protect_name">Todo app</p>
-                </a>
+                    <a href="#" target="_blank" rel="noopener noreferrer" class="proyects-item" data-languaje="react">
+                        <img src="" alt class="protect-thumb">
+                        <p class="protect-name">Todo app</p>
+                    </a>
 
-                <a href="#" target="_blank" rel="noopener noreferrer" class="proyects_grid_item" data-languaje="react">
-                    <img src="" alt class="protect_thumb">
-                    <p class="protect_name">Buscador de películas</p>
-                </a>
+                    <a href="#" target="_blank" rel="noopener noreferrer" class="proyects-item" data-languaje="react">
+                        <img src="" alt class="protect-thumb">
+                        <p class="protect-name">Buscador de películas</p>
+                    </a>
 
                 </div>
                 <!---Grilla de proyectos-->
@@ -174,102 +177,100 @@
         <!---Comienzo SECCION CONTACTO-->
         <section id="contact-section">
 
-            <div class="contact-container">
+            <div class="column media-container">
 
-                <div class="media-container">
+                <section class="contact-column">
 
-                    <section class="contact-column">
+                    <h2 class="section-title">Contactame</h2>
+                    <p class="contact-description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex hic est dolor ducimus recusandae totam laboriosam animi eaque. Iste nobis dolores dicta sint nulla ratione?</p>
 
-                        <h2 class="section-title">Contactame</h2>
-                        <p class="contact-description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex hic est dolor ducimus recusandae totam laboriosam animi eaque. Iste nobis dolores dicta sint nulla ratione?</p>
+                    <!---Links de redes sociales-->
 
-                        <!---Links de redes sociales-->
-                         <!---ver <section aria-label="Links redes sociales">-->
-                        <ul class="contact-social-list">
+                    <!---ver <section aria-label="Links redes sociales">-->
+                    <ul class="contact-social-list">
 
-                            <li class="contact-item">
-                                <a href class="social-link twitter-link" aria-label="Twitter">
-                                    <i aria-hidden="true" class="fab fa-twitter contact-social-icon">
+                        <li class="contact-item">
+                            <a href class="social-link twitter-link" aria-label="Twitter">
+                                <i aria-hidden="true" class="fab fa-twitter contact-social-icon">
                                         ::before 
-                                    </i>
-                                    @Julieta
-                                </a>
-                            </li>
+                                </i>
+                                @Julieta
+                            </a>
+                        </li>
 
-                            <li class="contact-item">
-                                <a href class="social-link github-link" aria-label="GitHub">
-                                    <i aria-hidden="true" class="fab fa-github-alt contact-social-icon">
+                        <li class="contact-item">
+                            <a href class="social-link github-link" aria-label="GitHub">
+                                <i aria-hidden="true" class="fab fa-github-alt contact-social-icon">
                                         ::before 
-                                    </i>
-                                    Julieta Pennini
-                                </a>
-                            </li>
+                                </i>
+                                Julieta Pennini
+                            </a>
+                        </li>
 
-                            <li class="contact-item">
-                                <a href class="social-link twitter-link" aria-label="Linkedin">
-                                    <i aria-hidden="true" class="fab fa-linkedin-in contact-social-icon">
+                        <li class="contact-item">
+                            <a href class="social-link twitter-link" aria-label="Linkedin">
+                                <i aria-hidden="true" class="fab fa-linkedin-in contact-social-icon">
                                         ::before 
-                                    </i>
-                                    Julieta Pennini
-                                </a>
-                            </li>
+                                </i>
+                                Julieta Pennini
+                            </a>
+                        </li>
 
-                            <li class="contact-item">
-                                <a href class="social-link email-link" aria-label="Email">
-                                    <i aria-hidden="true" class="fab fa-envelope contact-social-icon">
+                        <li class="contact-item">
+                            <a href class="social-link email-link" aria-label="Email">
+                                <i aria-hidden="true" class="fab fa-envelope contact-social-icon">
                                         ::before 
-                                    </i>
-                                    julietapennini@gmail.com
-                                 </a>
-                            </li>
-                        </ul>
+                                 </i>
+                                julietapennini@gmail.com
+                            </a>
+                        </li>
+                    </ul>
 
-                    </section>
+                </section>
                     
-                    <!---Final links de redes sociales-->
+                <!---Final links de redes sociales-->
                 
-                    <section class="form-column">
+                <section class="form-column">
 
-                        <h2 class="section-title">Escribime</h2>
+                    <h2 class="section-title">Escribime</h2>
 
-                        <!---Formulario-->
-                        <form action="https://submit-form.com/dZv3lZKLnN2eByG6HXaMj" method="POST" class="form_section">
+                    <!---Formulario-->
+                    <form action="https://submit-form.com/dZv3lZKLnN2eByG6HXaMj" method="POST" class="form_section">
 
-                            <div class="input-name-wrapper">
+                        <div class="input-name-wrapper">
 
-                                <div class="form-control">
-                                    <label for="firstname">Nombre *</label>
-                                    <input type="text" name="Nombre" id="firstname" class="input-firstname input-control" placeholder="p. ej.: Julieta" aria-label="Nombre" required>
-                                </div>
-                                
-                                <div class="form-control">
-                                    <label for="lastname">Apellido *</label>
-                                    <input type="text" name="Apellido" id="lastname" class="input-lastname input-control" placeholder="p. ej.: Pennini" aria-label="Apellido" required>
-                                </div>
-
-                                <div class="form-control">
-                                    <label for="email">Email *</label>
-                                    <input type="email" name="Email" id="email" class="input-control" placeholder="p. ej.: julietapennini@gmail.com" aria-label="Email" required>
-                                </div>
-
-                                <div class="form-control">
-                                    <label for="message">Mensaje *</label>
-                                    <textarea name="Mensaje" id="message" cols="30" rows="10" class="input_control" placeholder="Escriba un mensaje aquí" aria-label="Mensaje" required></textarea>
-                                
-                                </div>
-                                
-                                <button type="submit" class="contact_send_bnt button">
-                                Enviar
-                                </button>
-
+                            <div class="form-control">
+                                <label for="firstname">Nombre *</label>
+                                <input type="text" name="Nombre" id="firstname" class="input-firstname input-control" placeholder="p. ej.: Julieta" aria-label="Nombre" required>
                             </div>
-                        </form>
-                        <!---Fin formulario-->
+                                
+                            <div class="form-control">
+                                <label for="lastname">Apellido *</label>
+                                <input type="text" name="Apellido" id="lastname" class="input-lastname input-control" placeholder="p. ej.: Pennini" aria-label="Apellido" required>
+                            </div>
 
-                    </section>
-                </div>
+                            <div class="form-control">
+                                <label for="email">Email *</label>
+                                 <input type="email" name="Email" id="email" class="input-control" placeholder="p. ej.: julietapennini@gmail.com" aria-label="Email" required>
+                            </div>
 
+                            <div class="form-control">
+                                <label for="message">Mensaje *</label>
+                                <textarea name="Mensaje" id="message" cols="30" rows="10" class="input_control" placeholder="Escriba un mensaje aquí" aria-label="Mensaje" required></textarea>
+                                
+                            </div>
+                                
+                            <button type="submit" class="contact_send_bnt button">
+                            Enviar
+                            </button>
+
+                        </div>
+                    </form>
+                    <!---Fin formulario-->
+
+                </section>
             </div>
+
 
         </section>
         <!---Final SECCION CONTACTO-->
@@ -278,59 +279,63 @@
     <!---Comienzo FOOTER-->
     <footer class="footer-section">
 
-        <!---Navegación FOOTER-->
-        <nav class="footer-nav">
+        <div class="colum footer-container">
 
-            <ul class="footer-nav-list">
+            <!---Navegación FOOTER-->
+            <nav class="footer-nav">
 
-                <li class="footer-nav-item">
-                    <a href="#about-section" class="footer-nav-link">Sobre mi</a>
-                </li>
-                <li class="footer-nav-item">
-                    <a href="#skills-section" class="footer-nav-link">Conocimientos</a>
-                </li>
-                <li class="footer-nav-item">
-                    <a href="#projects-section" class="footer-nav-link">Proyectos</a>
-                </li>
-                <li class="footer-nav-item">
-                    <a href="#contact-section" class="footer-nav-link">Contacto</a>
-                </li>
+                <ul class="footer-nav-list">
 
-            </ul>
-        </nav>
+                    <li class="footer-nav-item">
+                        <a href="#about-section" class="footer-nav-link">Sobre mi</a>
+                    </li>
+                    <li class="footer-nav-item">
+                        <a href="#skills-section" class="footer-nav-link">Conocimientos</a>
+                    </li>
+                    <li class="footer-nav-item">
+                        <a href="#projects-section" class="footer-nav-link">Proyectos</a>
+                    </li>
+                    <li class="footer-nav-item">
+                        <a href="#contact-section" class="footer-nav-link">Contacto</a>
+                    </li>
+
+                </ul>
+            </nav>
 
 
 
-        <!---Redes FOOTER-->
-        <ul class="footer-social-list">
+            <!---Redes FOOTER-->
+            <div class="footer-social">
+                <ul class="footer-social-list">
 
-            <li class="footer-social-item">
-                <a href class="footer-social-link twitter-link" aria-label="Twitter">
-                    <i class="fab fa-twitter footer-social-icon">::before</i>
-                </a>
-            </li>
+                    <li class="footer-social-item">
+                        <a href class="footer-social-link twitter-link" aria-label="Twitter">
+                            <i class="fab fa-twitter footer-social-icon">::before</i>
+                        </a>
+                    </li>
 
-            <li class="footer-social-item">
-                <a href class="footer-social-link github-link" aria-label="GitHub">
-                    <i class="fab fa-github footer-social-icon">::before</i>
-                </a>
-            </li>
+                    <li class="footer-social-item">
+                        <a href class="footer-social-link github-link" aria-label="GitHub">
+                            <i class="fab fa-github footer-social-icon">::before</i>
+                        </a>
+                    </li>
 
-            <li class="footer-social-item">
-                <a href class="footer-social-link linkedin-link" aria-label="Linkedin">
-                    <i class="fab fa-linkedin-in footer-social-icon">::before</i>
-                </a>
-            </li>
+                    <li class="footer-social-item">
+                        <a href class="footer-social-link linkedin-link" aria-label="Linkedin">
+                            <i class="fab fa-linkedin-in footer-social-icon">::before</i>
+                        </a>
+                    </li>
 
-            <li class="footer-social-item">
-                <a href class="footer-social-link email-link" aria-label="Email">
-                    <i class="fab fa-envelope footer-social-icon">::before</i>
-                </a>
-            </li>
-        </ul>
+                    <li class="footer-social-item">
+                        <a href class="footer-social-link email-link" aria-label="Email">
+                            <i class="fab fa-envelope footer-social-icon">::before</i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
 
-        <p>Hecho con 🖤 por Julieta</p>
-
+            <p class="done-by">Hecho con 🖤 por Julieta</p>
+        </div>
     </footer>
     <!---Final FOOTER-->
 </body>
