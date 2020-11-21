@@ -1,5 +1,5 @@
+/*About base*/
 #about-section{
-    background-color: greenyellow;
     display: flex;
     justify-content: center;
     padding: 10% 2%;
@@ -12,23 +12,43 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    background-color: hotpink;
 }
 
 .about-description{
-    width: 45%;
-    background-color: blue;
+    display: flex;
+    flex-direction: column;
 }
 
 .about-img{
-    width: 500px;
-    height: 500px;
+    width: 600px;
+    height: 600px;
+}
+
+/* Estilos de texto*/
+
+.name-intro{
+    font-size: 2em;
 }
 
 .name{
-    font-family: "LostaMasta-Regular";
-    font-size: 3em;
+    font-family: 'Ultra', serif;
+    font-size: 6em;
+    font-weight: normal;
 }
+
+
+.button{
+    width: 35%;
+    padding: 0.8vh 4vh;
+    background-color: black;
+    color: white;
+    border-radius: 50px;
+    text-align: center;
+    cursor: pointer;
+    margin-top: 10%;
+}
+
+/*About breakpoint*/
 
 @media (max-width: 1100px){
     
@@ -39,25 +59,26 @@
     }
 
     .about-description{
-        width: 100%;
+        width: 80%;
         max-width: 1100px;
-        background-color: yellowgreen;
         display: flex;
-        flex-direction: column;
         justify-content: center;
         align-items: center;
+        text-align: center;
     }
-}
 
-@media (max-width: 580px){
-    .skills-item{
-        width: 300px;
-        height: 300px;
-        background-color: blue;
-    }
-    
     .about-img{
         width: 300px;
         height: 300px;
+    }
+
+    .name{
+        font-family: 'Ultra', serif;
+        font-size: 3em;
+        font-weight: normal;
+    }
+
+    .button{
+        width:auto;
     }
 }

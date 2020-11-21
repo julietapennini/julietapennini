@@ -5,16 +5,12 @@
 }
 
 /* Design styles */
-
-/* Colors 
-:root{
-    --rosa
-}*/
-
-@font-face {
-    font-family: "LostaMasta-Regular";
-    src: url(../fonts/LostaMasta-Regular.ttf);
+:root {
+    --main-color: #FFFFFF;
+    --second-color: #FFFFFF;
+    --text-type: 'Nunito Sans', sans-serif;
   }
+
 
 /* Layout */
 
@@ -31,3 +27,6 @@ a{
     text-decoration: none;
 }
 
+h2, p, a{
+    font-family: 'Nunito Sans', sans-serif;
+}
