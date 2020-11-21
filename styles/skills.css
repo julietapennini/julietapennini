@@ -1,22 +1,21 @@
+/*Skilss base*/
 #skills-section{
-    background-color:yellow;
     display: flex;
     justify-content: center;
-    padding: 10% 2%;
+    padding: 8% 2%;
 }
 
 .skills-container{
-    background-color: pink;
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
 }
 
 .skills-grid{
     width: 100%;
     max-width: 1100px;
     margin-top: 2%;
-    background-color: black;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -27,11 +26,29 @@
     height: 230px;
     margin: 1%;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: tomato;
+    border-radius: 10px;
+    border: solid 1px black;
 }
 
+.skills-item:hover{
+    background-color: black;
+    color: white;
+}
+
+/*Styles*/
+.skills-description{
+    width: 60%;
+    text-align: center;
+    margin: 0% auto 2%;
+}
+
+.skills-item i {
+    font-size: 80px;
+    margin-bottom: 5%;
+}
 
 @media (max-width: 580px){
     .project-item{
@@ -39,12 +56,20 @@
     height: 160px;
     background-color: pink;
     }
+
+    .skills-item i {
+        font-size: 80px;
+        margin-bottom: 5%;
+    }
 }
 
 @media (max-width: 360px){
     .skills-item{
         width: 140px;
         height: 130px;
-        background-color: blue;
+    }
+    .skills-item i {
+        font-size: 50px;
+        margin-bottom: 5%;
     }
 }

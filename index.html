@@ -3,13 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Julieta Pennini</title>
+    <meta name="author" content="Julieta Pennini"> 
+    <meta name="description" content="Julieta Pennini - Desarrolladora Front-End y Diseñadora Gráfica">
+    <meta name="keywords" content="Portafolio, Desarrollo Front-End, Desarrollo Web, Diseño">
 
+    <!---Favicon--->
+    <link rel="shortcut icon" href="./img/favicon.svg" type="image/x.icon">
+
+     <!---Tipografía--->
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Ultra&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./styles/layout.css"/>
+    
+    <!-- # Open Graph Meta Tags # -->
+    <!-- Facebook -->
+    <meta property="og:title" content="Julieta Pennini - Portfolio">
+    <meta property="og:description" content="Desarrolladora Front-End y Diseñadora Gráfica">
+    <meta property="og:type" content="article">
+    <meta property="og:site name" content="Julieta Pennini">
+    <meta property="og:url" content="https://julietapennini.github.io/julietapennini/">
+    <meta property="og:image" content="https://ibb.co/1X5sVfb">
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://julietapennini.github.io/julietapennini/">
+    <meta property="twitter:title" content="Julieta Pennini - Portfolio">
+    <meta property="twitter:description" content="Desarrolladora Front-End y Diseñadora Gráfica">
+    <meta property="twitter:image" content="https://ibb.co/1X5sVfb">
+    
+    <!---Links CSS-->
+     <link rel="stylesheet" href="./styles/base.css"/>
     <link rel="stylesheet" href="./styles/header.css"/>
     <link rel="stylesheet" href="./styles/about.css"/>
     <link rel="stylesheet" href="./styles/skills.css"/>
@@ -17,6 +43,12 @@
     <link rel="stylesheet" href="./styles/projects.css"/>
     <link rel="stylesheet" href="./styles/contact.css"/>
     <link rel="stylesheet" href="./styles/footer.css"/>
+
+    <!---Íconos-->
+    <script src="https://kit.fontawesome.com/e724a02081.js" crossorigin="anonymous"></script>
+
+    <!---Título-->
+    <title>Julieta Pennini</title>
     
 </head>
 <body>
@@ -38,7 +70,6 @@
     <!---Final Header-->
 
     <main>
-
         <!---Comienzo SECCION SOBRE MI-->
         <section id="about-section">
             <div class="colum about-container">
@@ -52,54 +83,47 @@
             </div>
         </section>
         <!---Final SECCION SOBRE MI-->
-    
 
         <!---Comienzo SECCION CONOCIMIENTOS-->
         <section id="skills-section">
             <div class="column skills-container">
                 
-                <h2 class="skills-title">Mis conoci<wbr>mientos</h2>
+                <h2 class="skills-title">Conocimientos</h2>
                 <p class="skills-description">
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Pariatur consectetur repellendus aut, iste minima sunt. Recusandae enim delectus ullam saepe possimus veritatis aspernatur praesentium quod, voluptate natus, animi, odio optio.
+                    Frontend constituye todas las tecnologías de diseño y desarrollo web que corren en el navegador y que se encargan de la interactividad con los usuarios.
                 </p>
 
 
                 <div class="skills-grid">
                     
-                    <div class="skills-item html5">
-                        <i class="devicon_html5_plain colored skill_icon">
-                        </i>
-                        <p class="skill_title">HTML 5</p>
+                    <div class="skills-item html">
+                        <i class="fab fa-html5"></i>
+                        <p class="skill-title">HTML 5</p>
                     </div>
 
-                    <div class="skills-item css3">
-                        <i class="skill-icon">
-                        </i>
-                        <p class="skill_title">CSS3</p>
+                    <div class="skills-item css">
+                        <i class="fab fa-css3-alt"></i>
+                        <p class="skill-title">CSS3</p>
                     </div>
 
                     <div class="skills-item sass">
-                        <i class="skill-icon">
-                        </i>
-                        <p class="skill_title">Sass</p>
+                        <i class="fab fa-sass"></i>
+                        <p class="skill-title">Sass</p>
                     </div>
 
                     <div class="skills-item javascript">
-                        <i class="skill-icon">
-                        </i>
-                        <p class="skill_title">JavaScript</p>
+                        <i class="fab fa-js-square"></i>
+                        <p class="skill-title">JavaScript</p>
                     </div>
 
                     <div class="skills-item react">
-                        <i class="skill-icon">
-                        </i>
-                        <p class="skill_title">React</p>
+                        <i class="fab fa-react"></i>
+                        <p class="skill-title">React</p>
                     </div>
 
                     <div class="skills-item git">
-                        <i class="skill-icon">
-                        </i>
-                        <p class="skills-title">GIT</p>
+                        <i class="fab fa-git-alt"></i>
+                        <p class="skill-title">GIT</p>
                     </div>
                     
                 </div>
@@ -107,7 +131,6 @@
             </div>
         </section>
         <!---Fin SECCION CONOCIMIENTOS-->
-
 
         <!---Comienzo SECCION PROYECTOS-->
         <!---Cita-->
@@ -176,7 +199,6 @@
             </div>
         </section>
         <!---Fin SECCION PROYECTOS-->
-
 
         <!---Comienzo SECCION CONTACTO-->
         <section id="contact-section">
@@ -278,8 +300,8 @@
 
         </section>
         <!---Final SECCION CONTACTO-->
-    </main>
 
+    </main>
     <!---Comienzo FOOTER-->
     <footer class="footer-section">
 
@@ -313,26 +335,26 @@
                 <ul class="footer-social-list">
 
                     <li class="footer-social-item">
-                        <a href class="footer-social-link twitter-link" aria-label="Twitter">
-                            <i class="fab fa-twitter footer-social-icon">::before</i>
+                        <a href="https://twitter.com/julietapennini" class="footer-social-link twitter-link" aria-label="Twitter">
+                            <i class="fab fa-twitter-square"></i>
                         </a>
                     </li>
 
                     <li class="footer-social-item">
-                        <a href class="footer-social-link github-link" aria-label="GitHub">
-                            <i class="fab fa-github footer-social-icon">::before</i>
+                        <a href="https://github.com/julietapennini" class="footer-social-link github-link" aria-label="GitHub">
+                            <i class="fab fa-github-square"></i>
                         </a>
                     </li>
 
                     <li class="footer-social-item">
-                        <a href class="footer-social-link linkedin-link" aria-label="Linkedin">
-                            <i class="fab fa-linkedin-in footer-social-icon">::before</i>
+                        <a href="https://www.linkedin.com/in/julieta-pennini-b6360371/" class="footer-social-link linkedin-link" aria-label="Linkedin">
+                            <i class="fab fa-linkedin"></i>
                         </a>
                     </li>
 
                     <li class="footer-social-item">
-                        <a href class="footer-social-link email-link" aria-label="Email">
-                            <i class="fab fa-envelope footer-social-icon">::before</i>
+                        <a href="https://www.instagram.com/julietapennini/?hl=es-la" class="footer-social-link instagram-link" aria-label="Instagram">
+                            <i class="fab fa-instagram-square"></i>
                         </a>
                     </li>
                 </ul>

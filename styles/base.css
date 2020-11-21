@@ -30,3 +30,11 @@ a{
 h2, p, a{
     font-family: 'Nunito Sans', sans-serif;
 }
+
+h2{
+    font-size: 1.4em;
+    text-transform: uppercase;
+    font-weight: 900;
+    letter-spacing: 0.05em;
+    margin: 2% auto;
+}

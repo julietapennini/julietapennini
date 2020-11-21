@@ -1,3 +1,4 @@
+/*Header base*/
 .nav-section{
     width: 100%;
     height: 10vh;
@@ -15,11 +16,12 @@
     align-items: center;
 }
 
-.nav-list {
+.nav-list{
     display: flex;
     justify-content: space-between;
 }
 
+/*Botones de Navegación*/
 .nav-link{
     font-family: 'Nunito Sans', sans-serif;
     font-size: 0.7em;
@@ -40,11 +42,17 @@
     transform: translatex(2vh);
 }
 
+.nav-link:active{
+    background-color: black;
+    color: white;
+}
+
 .nav-link:focus{
     background-color: black;
     color: white;
 }
 
+/*Header breakpoint*/
 @media (max-width: 1100px) {
     .nav-section {
       display: none;
