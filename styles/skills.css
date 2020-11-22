@@ -2,7 +2,7 @@
 #skills-section{
     display: flex;
     justify-content: center;
-    padding: 8% 2%;
+    padding: 7% 2%;
 }
 
 .skills-container{
@@ -51,10 +51,10 @@
 }
 
 @media (max-width: 580px){
+    
     .project-item{
     width: 180px;
     height: 160px;
-    background-color: pink;
     }
 
     .skills-item i {

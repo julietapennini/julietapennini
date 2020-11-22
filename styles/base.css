@@ -27,7 +27,7 @@ a{
     text-decoration: none;
 }
 
-h2, p, a{
+h2, p, a, input, label{
     font-family: 'Nunito Sans', sans-serif;
 }
 
@@ -36,5 +36,13 @@ h2{
     text-transform: uppercase;
     font-weight: 900;
     letter-spacing: 0.05em;
-    margin: 2% auto;
+    margin: 0% auto 2%;
+}
+
+hr{
+    margin: 0 auto;
+    width: 70%;
+    height: 8px;
+    background: black;
+    border-radius: 10px;
 }

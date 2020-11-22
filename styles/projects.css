@@ -1,12 +1,12 @@
+/* Proyects base*/
+
 #projects-section{
-    background-color:yellow;
     display: flex;
     justify-content: center;
-    padding: 8% 2%;
+    padding: 7% 2%;
 }
 
 .projects-container{
-    background-color:grey;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -14,23 +14,37 @@
 }
 
 .projects-grid{
-    width: 100%;
-    max-width: 1100px;
     margin-top: 2%;
-    background-color: red;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-content: center;
-
 }
+
+/* Proyects styles*/
 
 .projects-item{
     flex-basis: 300px;
     height: 300px;
     margin: 10px;
-    background-color: tomato;
     display: flex;
     justify-content: center;
     align-items: center;
-    }
+    color: black;
+    border-radius: 10px;
+    border: solid 1px black;
+}
+
+.projects-item:hover{
+    background-color: black;
+    color: white;
+}
+
+.project-name{
+    font-size: 1em;
+    text-transform: uppercase;
+    font-weight: 900;
+    letter-spacing: 0.04em;
+    font-style: italic;
+    text-align: center;
+}

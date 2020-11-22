@@ -1,12 +1,29 @@
+/*Quote base*/
+
 .quote-section{
-    background-color: red;
+    background-color:black;
     display: flex;
     justify-content: center;
-    padding: 10% 2%;
+    padding: 8% 2%;
 }
 
 .quote-container{
-    width: 100%;
-    max-width: 1100px;
-    background-color: pink;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
 }
+
+/*Styles*/
+
+.quote-container i{
+    font-size: 60px;
+    margin-bottom: 4%;
+}
+
+blockquote{
+    margin-bottom: 4%;
+}
+
