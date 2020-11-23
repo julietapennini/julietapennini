@@ -32,7 +32,7 @@
     <meta property="twitter:url" content="https://julietapennini.github.io/julietapennini/">
     <meta property="twitter:title" content="Julieta Pennini - Portfolio">
     <meta property="twitter:description" content="Desarrolladora Front-End y Diseñadora Gráfica">
-    <meta property="twitter:image" content="https://raw.githubusercontent.com/julietapennini/julietapennini/master/img/facebook-portada.jpg">
+    <meta property="twitter:image" content="https://github.com/julietapennini/julietapennini/blob/master/img/facebook-portada.jpg?raw=true">
     
     <!---Links CSS-->
      <link rel="stylesheet" href="./styles/base.css"/>
@@ -203,28 +203,24 @@
                     <h2 class="section-title">Contactame</h2>
                     <p class="contact-description">Si por algún motivo necesitás hablar conmigo podés comunicarte mediantes éstas redes. Estoy pendiente y contesto rápido, así que no dudes en enviarme un mensaje privado.</p>
                     <ul class="contact-social-list">
-
                         <li class="contact-item">
                             <a href class="social-link twitter-link" aria-label="Twitter">
                                 <i aria-hidden="true" class="fab fa-twitter contact-social-icon"></i>
                                 @Julieta
                             </a>
                         </li>
-
                         <li class="contact-item">
                             <a href class="social-link github-link" aria-label="GitHub">
                                 <i aria-hidden="true" class="fab fa-github-alt contact-social-icon"></i>
                                 /JulietaPennini
                             </a>
                         </li>
-
                         <li class="contact-item">
                             <a href class="social-link twitter-link" aria-label="Linkedin">
                                 <i aria-hidden="true" class="fab fa-linkedin-in contact-social-icon"></i>
                                 /JulietaPennini
                             </a>
                         </li>
-
                         <li class="contact-item">
                             <a href class="social-link email-link" aria-label="Email">
                                 <i aria-hidden="true" class="fas fa-paper-plane contact-social-icon"></i>
@@ -234,45 +230,49 @@
                     </ul>
 
                 </section>
-                    
                 <!---Final links de redes sociales-->
 
                 <!---Formulario-->
                 <section class="form-column">
-
                     <h2 class="section-title">Escribime</h2>
-
-                    <form action="https://submit-form.com/dZv3lZKLnN2eByG6HXaMj" method="POST" class="form-section" enctype="application/x-www-form-urlencoded" ></form>
+                    <form class="contact-form" method="POST">
 
                         <div class="input-name-wrapper">
 
                             <div class="form-control firstname">
-                                <label for="firstname">Nombre *</label>
-                                <input type="text" name="Nombre" id="firstname" class="input-firstname input-control" placeholder="p. ej.: Julieta" aria-label="Nombre" required>
+                                <label for="firstname">Nombre</label>
+                                <input type="text" name="Nombre" id="firstname" class="input-control input-firstname" placeholder="p. ej.: Julieta" aria-label="Nombre" required>
+                                <i class="far fa-times-circle icon-invalid" aria-hidden="true"></i>
+                                <i class="far fa-check-circle icon-valid" aria-hidden="true"></i>
                             </div>
-                                
+
                             <div class="form-control lastname">
-                                <label for="lastname">Apellido *</label>
-                                <input type="text" name="Apellido" id="lastname" class="input-lastname input-control" placeholder="p. ej.: Pennini" aria-label="Apellido" required>
+                                <label for="lastname">Apellido</label>
+                                <input type="text" name="Apellido" id="lastname" class="input-control input-lastname" placeholder="p. ej.: Pennini" aria-label="Apellido" required>
+                                <i class="far fa-times-circle icon-invalid" aria-hidden="true"></i>
+                                <i class="far fa-check-circle icon-valid" aria-hidden="true"></i>
                             </div>
-
-                            <div class="form-control email">
-                                <label for="email">Email *</label>
-                                <input type="email" name="Email" id="email" class="email input-control" placeholder="p. ej.: julietapennini@gmail.com" aria-label="Email" required>
-                            </div>
-
-                            <div class="form-control message">
-                                <label for="message">Mensaje *</label>
-                                <textarea name="Mensaje" id="message" cols="30" rows="10" class="input_control" placeholder="Escriba un mensaje aquí" aria-label="Mensaje" required></textarea>
-                            </div>
-                                
-                            <button type="submit" class="contact_send_bnt button">Enviar</button>
-
                         </div>
-                    </form>
-                    <!---Fin formulario-->
 
+                        <div class="form-control email">
+                            <label for="email">Email</label>
+                            <input type="email" name="E-mail" id="email" class="input-control input-email" placeholder="p. ej.: julietapennini@gmail.com" aria-label="Email" required>
+                            <i class="far fa-times-circle icon-invalid" aria-hidden="true"></i>
+                            <i class="far fa-check-circle icon-valid" aria-hidden="true"></i>
+                            
+                        </div>
+
+                        <div class="form-control message">
+                            <label for="message">Mensaje</label>
+                            <textarea name="Mensaje" id="message" cols="30" rows="10" class="input-control input-message" placeholder="Escriba un mensaje aquí" aria-label="Mensaje" required></textarea>
+                            <i class="far fa-times-circle icon-invalid" aria-hidden="true"></i>
+                            <i class="far fa-check-circle icon-valid" aria-hidden="true"></i>
+                        </div>
+
+                        <button type="submit" class="send-button">Enviar</button>
+                    </form>
                 </section>
+                <!---Fin formulario-->
             </div>
 
 

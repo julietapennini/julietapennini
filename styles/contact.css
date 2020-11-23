@@ -33,7 +33,7 @@
     font-size: 1em;
 }
 
-.social-link i{
+a.social-link i.contact-social-icon{
     width: 2.5rem;
     height: 2.5rem;
     text-align: center;
@@ -60,37 +60,50 @@
 
 .input-name-wrapper{
     display: flex;
-    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 .form-control{
-    display: flex;
-    flex-direction: column;
     margin-bottom: 4%;
-}
-
-.firstname{
-    margin-right: 4%;
+    position: relative;
 }
 
 .firstname, .lastname{
     width: 48%;
 }
 
+.input-name-wrapper .form-control:nth-of-type(1) {
+    margin-right: 2%;
+}
+  
+.input-name-wrapper .form-control:nth-of-type(2) {
+    margin-left: 2%;
+}
+
+
 .email, .message{
     width: 100%;
 }
 
 label{
-    margin-bottom: 6px;
+    margin-bottom: 1.5%;
+    display: block;
 }
 
 input{
+    width: 100%;
     background-color: pink;
     height: 40px;
     border-radius: 20px;
     border-style: none;
     padding-left: 25px;
+}
+
+input:focus {
+    border: none;
+    outline: none;
+    outline-width: 0;
+    background-color: white;
 }
 
 textarea{
@@ -99,18 +112,91 @@ textarea{
     height: 300px;
     border-radius: 20px;
     border-style: none;
-    padding: 15px 0 0 25px;
-    margin-bottom: 5%;
+    padding: 15px 0px 0px 25px;
 }
 
-.contact_send_bnt{
+textarea:focus {
+    border: none;
+    outline: none;
+    outline-width: 0;
+    background: coral;
+}
+
+textarea::placeholder {
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+input:valid:focus,
+textarea:valid:focus {
+  box-shadow: 0px 0px 5px #88c459;
+}
+
+input:invalid:not(:placeholder-shown):focus,
+textarea:invalid:not(:placeholder-shown):focus {
+  box-shadow: 0px 0px 5px #f5414f;
+}
+
+input:invalid:not(:placeholder-shown),
+textarea:invalid:not(:placeholder-shown) {
+  border: 1px solid #f5414f;
+}
+
+input:valid,
+textarea:valid {
+  border: 1px solid #88c459;
+}
+
+
+/*ICONO*/
+
+i.icon-invalid, i.icon-valid {
+    display: none;
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    transform: translateY(50%);
+}
+
+.icon-valid {
+  color: #88c459;
+}
+
+.icon-invalid {
+  color: #f5414f;
+}
+
+input:valid ~ .icon-valid,
+textarea:valid ~ .icon-valid,
+input:not(:placeholder-shown):invalid ~ .icon-invalid,
+textarea:not(:placeholder-shown):invalid ~ .icon-invalid {
+  display: block;
+}
+
+/*Botón Submit*/
+
+.send-button{
     border-style: none;
     font-size: 0.8em;
     letter-spacing: 0.2em;
     text-transform: uppercase;
-    cursor: pointer;
     font-style: italic;
     font-weight: 700;
+    background-color: black;
+    color: white;
+    padding: 1.2vh 4vh;
+    border-radius: 50px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.send-button:focus{
+    border: none;
+    outline: none;
+    outline-width: 0;
+}
+
+.send-button:hover{
+    background-color: red;
 }
 
 /*Contact breakpoints*/
@@ -140,7 +226,7 @@ textarea{
         margin-right: 0;
     }
 
-    .contact_send_bnt{
+    .send-bnt{
         width: 100%;
     }
 
