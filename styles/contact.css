@@ -9,8 +9,6 @@
 .media-container{
     display: flex;
     justify-content: space-between;
-    
-    background-color:skyblue blue;
 }
 
 .contact-column{
@@ -28,6 +26,33 @@
 }
 
 /*Formulario*/
+
+/*Contactame*/
+.contact-item{
+    margin-bottom: 3%;
+    font-size: 1em;
+}
+
+.social-link i{
+    width: 2.5rem;
+    height: 2.5rem;
+    text-align: center;
+    font-size: 20px;
+    padding: 2%;
+}
+
+.social-link:hover{
+    color: pink;
+}
+
+.social-link:hover .contact-social-icon{
+    background-color:pink;
+    color:rgb(155, 140, 140);
+    border-radius: 50%;
+}
+
+/*Escribime*/
+
 .form-column{
     width: 48%;
     max-width: 1100px;
@@ -38,21 +63,85 @@
     flex-wrap: wrap;
 }
 
-.input{
-width: 80%;
+.form-control{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 4%;
 }
 
+.firstname{
+    margin-right: 4%;
+}
+
+.firstname, .lastname{
+    width: 48%;
+}
+
+.email, .message{
+    width: 100%;
+}
+
+label{
+    margin-bottom: 6px;
+}
+
+input{
+    background-color: pink;
+    height: 40px;
+    border-radius: 20px;
+    border-style: none;
+    padding-left: 25px;
+}
+
+textarea{
+    width: 100%;
+    background-color: pink;
+    height: 300px;
+    border-radius: 20px;
+    border-style: none;
+    padding: 15px 0 0 25px;
+    margin-bottom: 5%;
+}
+
+.contact_send_bnt{
+    border-style: none;
+    font-size: 0.8em;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-style: italic;
+    font-weight: 700;
+}
+
+/*Contact breakpoints*/
+
 @media (max-width: 1100px){
+
     .media-container{
         display: flex;
         flex-direction: column;
         justify-content: center;
     }
+
     .contact-column{
         width: 100%;
         margin-bottom: 10%;
     }
+
     .form-column{
         width: 100%;
     }
+
+    .firstname, .lastname{
+        width: 100%;
+    }
+
+    .firstname{
+        margin-right: 0;
+    }
+
+    .contact_send_bnt{
+        width: 100%;
+    }
+
 }
