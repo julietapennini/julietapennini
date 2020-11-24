@@ -1,10 +1,15 @@
+<<<<<<< HEAD
 /************Base*************/
 * {
+=======
+*{
+>>>>>>> 972ae4625963b7a44e9a15f7b77c28c3c6116b83
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+<<<<<<< HEAD
 .column {
     width: 100%;
     max-width: 1100px;
@@ -33,6 +38,36 @@ h2, p, a, input, label {
 }
 
 h2 {
+=======
+/* Design styles */
+:root {
+    --main-color: #FFFFFF;
+    --second-color: #FFFFFF;
+    --text-type: 'Nunito Sans', sans-serif;
+  }
+
+
+/* Layout */
+
+.column {
+    width: 100%;
+    max-width: 1100px;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+h2, p, a, input, label{
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+h2{
+>>>>>>> 972ae4625963b7a44e9a15f7b77c28c3c6116b83
     font-size: 1.4em;
     text-transform: uppercase;
     font-weight: 900;
@@ -40,9 +75,13 @@ h2 {
     margin: 0% auto 2%;
 }
 
+<<<<<<< HEAD
 /*Formas*/
 
 hr {
+=======
+hr{
+>>>>>>> 972ae4625963b7a44e9a15f7b77c28c3c6116b83
     margin: 0 auto;
     width: 70%;
     height: 8px;

@@ -1,38 +1,71 @@
+<<<<<<< HEAD
 /************Contact*************/
 
 #contact-section {
+=======
+/*Contac Base*/
+
+#contact-section{
+>>>>>>> 972ae4625963b7a44e9a15f7b77c28c3c6116b83
     display: flex;
     justify-content: center;
     padding: 7% 2%; 
 }
 
+<<<<<<< HEAD
 .media-container {
+=======
+.media-container{
+>>>>>>> 972ae4625963b7a44e9a15f7b77c28c3c6116b83
     display: flex;
     justify-content: space-between;
 }
 
+<<<<<<< HEAD
 .contact-column {
+=======
+.contact-column{
+>>>>>>> 972ae4625963b7a44e9a15f7b77c28c3c6116b83
     width: 48%;
     max-width: 1100px;
 }
 
+<<<<<<< HEAD
 .contact-description {
     margin-bottom: 4%;
 }
 
 .social-link {
+=======
+.contact-description{
+    margin-bottom: 4%;
+}
+
+.social-link{
+>>>>>>> 972ae4625963b7a44e9a15f7b77c28c3c6116b83
     margin: 4% 0%;
     color: black;
 }
 
+<<<<<<< HEAD
 /**___________Contactame___________**/
 
 .contact-item {
+=======
+/*Formulario*/
+
+/*Contactame*/
+.contact-item{
+>>>>>>> 972ae4625963b7a44e9a15f7b77c28c3c6116b83
     margin-bottom: 3%;
     font-size: 1em;
 }
 
+<<<<<<< HEAD
 a.social-link i.contact-social-icon {
+=======
+a.social-link i.contact-social-icon{
+>>>>>>> 972ae4625963b7a44e9a15f7b77c28c3c6116b83
     width: 2.5rem;
     height: 2.5rem;
     text-align: center;
@@ -44,32 +77,54 @@ a.social-link i.contact-social-icon {
     color: pink;
 }
 
+<<<<<<< HEAD
 .social-link:hover .contact-social-icon {
+=======
+.social-link:hover .contact-social-icon{
+>>>>>>> 972ae4625963b7a44e9a15f7b77c28c3c6116b83
     background-color:pink;
     color:rgb(155, 140, 140);
     border-radius: 50%;
 }
 
+<<<<<<< HEAD
 /**___________Escribime___________**/
 
 /*Formulario*/
 
 .form-column {
+=======
+/*Escribime*/
+
+.form-column{
+>>>>>>> 972ae4625963b7a44e9a15f7b77c28c3c6116b83
     width: 48%;
     max-width: 1100px;
 }
 
+<<<<<<< HEAD
 .input-name-wrapper {
+=======
+.input-name-wrapper{
+>>>>>>> 972ae4625963b7a44e9a15f7b77c28c3c6116b83
     display: flex;
     justify-content: space-between;
 }
 
+<<<<<<< HEAD
 .form-control {
+=======
+.form-control{
+>>>>>>> 972ae4625963b7a44e9a15f7b77c28c3c6116b83
     margin-bottom: 4%;
     position: relative;
 }
 
+<<<<<<< HEAD
 .firstname, .lastname {
+=======
+.firstname, .lastname{
+>>>>>>> 972ae4625963b7a44e9a15f7b77c28c3c6116b83
     width: 48%;
 }
 
@@ -81,16 +136,29 @@ a.social-link i.contact-social-icon {
     margin-left: 2%;
 }
 
+<<<<<<< HEAD
 .email, .message {
     width: 100%;
 }
 
 label {
+=======
+
+.email, .message{
+    width: 100%;
+}
+
+label{
+>>>>>>> 972ae4625963b7a44e9a15f7b77c28c3c6116b83
     margin-bottom: 1.5%;
     display: block;
 }
 
+<<<<<<< HEAD
 input {
+=======
+input{
+>>>>>>> 972ae4625963b7a44e9a15f7b77c28c3c6116b83
     width: 100%;
     background-color: pink;
     height: 40px;
@@ -106,7 +174,11 @@ input:focus {
     background-color: white;
 }
 
+<<<<<<< HEAD
 textarea {
+=======
+textarea{
+>>>>>>> 972ae4625963b7a44e9a15f7b77c28c3c6116b83
     width: 100%;
     background-color: pink;
     height: 300px;
@@ -147,7 +219,11 @@ textarea:valid {
 }
 
 
+<<<<<<< HEAD
 /*Ícono*/
+=======
+/*ICONO*/
+>>>>>>> 972ae4625963b7a44e9a15f7b77c28c3c6116b83
 
 i.icon-invalid, i.icon-valid {
     display: none;
@@ -174,7 +250,11 @@ textarea:not(:placeholder-shown):invalid ~ .icon-invalid {
 
 /*Botón Submit*/
 
+<<<<<<< HEAD
 .send-button {
+=======
+.send-button{
+>>>>>>> 972ae4625963b7a44e9a15f7b77c28c3c6116b83
     border-style: none;
     font-size: 0.8em;
     letter-spacing: 0.2em;
@@ -189,12 +269,17 @@ textarea:not(:placeholder-shown):invalid ~ .icon-invalid {
     cursor: pointer;
 }
 
+<<<<<<< HEAD
 .send-button:focus {
+=======
+.send-button:focus{
+>>>>>>> 972ae4625963b7a44e9a15f7b77c28c3c6116b83
     border: none;
     outline: none;
     outline-width: 0;
 }
 
+<<<<<<< HEAD
 .send-button:hover {
     background-color: red;
 }
@@ -204,16 +289,32 @@ textarea:not(:placeholder-shown):invalid ~ .icon-invalid {
 @media (max-width: 1100px) {
 
     .media-container {
+=======
+.send-button:hover{
+    background-color: red;
+}
+
+/*Contact breakpoints*/
+
+@media (max-width: 1100px){
+
+    .media-container{
+>>>>>>> 972ae4625963b7a44e9a15f7b77c28c3c6116b83
         display: flex;
         flex-direction: column;
         justify-content: center;
     }
 
+<<<<<<< HEAD
     .contact-column {
+=======
+    .contact-column{
+>>>>>>> 972ae4625963b7a44e9a15f7b77c28c3c6116b83
         width: 100%;
         margin-bottom: 10%;
     }
 
+<<<<<<< HEAD
     .input-name-wrapper {
         flex-direction: column;
     }
@@ -241,4 +342,22 @@ textarea:not(:placeholder-shown):invalid ~ .icon-invalid {
     textarea {
         height: 250px;
     }
+=======
+    .form-column{
+        width: 100%;
+    }
+
+    .firstname, .lastname{
+        width: 100%;
+    }
+
+    .firstname{
+        margin-right: 0;
+    }
+
+    .send-bnt{
+        width: 100%;
+    }
+
+>>>>>>> 972ae4625963b7a44e9a15f7b77c28c3c6116b83
 }

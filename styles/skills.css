@@ -1,19 +1,32 @@
+<<<<<<< HEAD
 /************Skills*************/
 
 #skills-section {
+=======
+/*Skilss base*/
+#skills-section{
+>>>>>>> 972ae4625963b7a44e9a15f7b77c28c3c6116b83
     display: flex;
     justify-content: center;
     padding: 7% 2%;
 }
 
+<<<<<<< HEAD
 .skills-container {
+=======
+.skills-container{
+>>>>>>> 972ae4625963b7a44e9a15f7b77c28c3c6116b83
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
+<<<<<<< HEAD
 .skills-grid {
+=======
+.skills-grid{
+>>>>>>> 972ae4625963b7a44e9a15f7b77c28c3c6116b83
     width: 100%;
     max-width: 1100px;
     margin-top: 2%;
@@ -22,7 +35,11 @@
     justify-content: center;
 }
 
+<<<<<<< HEAD
 .skills-item {
+=======
+.skills-item{
+>>>>>>> 972ae4625963b7a44e9a15f7b77c28c3c6116b83
     width: 260px;
     height: 230px;
     margin: 1%;
@@ -35,12 +52,21 @@
     cursor: pointer;
 }
 
+<<<<<<< HEAD
 .skills-item:hover {
+=======
+.skills-item:hover{
+>>>>>>> 972ae4625963b7a44e9a15f7b77c28c3c6116b83
     background-color: black;
     color: white;
 }
 
+<<<<<<< HEAD
 .skills-description {
+=======
+/*Styles*/
+.skills-description{
+>>>>>>> 972ae4625963b7a44e9a15f7b77c28c3c6116b83
     width: 60%;
     text-align: center;
     margin: 0% auto 2%;
@@ -51,9 +77,13 @@
     margin-bottom: 5%;
 }
 
+<<<<<<< HEAD
 /************Skills BREAKPOINTS*************/
 
 @media (max-width: 580px) {
+=======
+@media (max-width: 580px){
+>>>>>>> 972ae4625963b7a44e9a15f7b77c28c3c6116b83
     
     .project-item{
     width: 180px;
@@ -66,8 +96,13 @@
     }
 }
 
+<<<<<<< HEAD
 @media (max-width: 360px) {
     .skills-item {
+=======
+@media (max-width: 360px){
+    .skills-item{
+>>>>>>> 972ae4625963b7a44e9a15f7b77c28c3c6116b83
         width: 140px;
         height: 130px;
     }
