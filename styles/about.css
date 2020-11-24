@@ -25,25 +25,25 @@
     height: 600px;
 }
 
-.name-intro{
+.name-intro {
     font-size: 2em;
     margin-bottom: 2%;
 }
 
-.name{
+.name {
     font-family: 'Ultra', serif;
     font-size: 6em;
     font-weight: normal;
     margin-bottom: 4%;
 }
 
-.tellMeMore{
+.tellMeMore {
     color: grey;
     margin-bottom: 10%;
 }
 
-.button{
-    width: 35%;
+.button {
+    width: 45%;
     padding: 0.8vh 4vh;
     background-color: black;
     color: white;
@@ -55,7 +55,7 @@
 
 /************About BREAKPOINTS*************/
 
-@media (max-width: 1100px){
+@media (max-width: 1100px) {
     
     .about-container {
         margin-top: 10%;
