@@ -1,0 +1,87 @@
+/************Footer*************/
+
+.footer-section {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    padding: 4% 2% 3%; 
+}
+
+.footer-container {
+    width: 100%;
+    max-width: 1100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color:white;
+}
+
+.footer-nav {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*Footer NAV*/
+
+.footer-nav-list {
+    width: 45%;
+    margin-bottom: 3%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer-social {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div.footer-container ul li a {
+    color: white;
+    cursor: pointer;
+    font-size: 0.76em;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+}
+
+div.footer-container ul li a.footer-social-link {
+    font-size: 30px;
+}
+
+/*Footer MEDIA*/
+
+.footer-social-list {
+    width: 20%;
+    margin-bottom: 3%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer-nav-link {
+font-size: 1em;
+}
+
+/************Footer BREAKPOINTS*************/
+
+@media (max-width: 1100px) {
+    
+    .footer-nav-list { 
+        display: none;
+    }
+
+    .footer-social-list {
+        width: 30%;
+    }
+}
+
+@media (max-width: 580px) {
+
+    .footer-social-list {
+        width: 55%;
+    }
+    
+}

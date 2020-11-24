@@ -1,0 +1,26 @@
+/************Quote*************/
+
+.quote-section {
+    background-color:black;
+    display: flex;
+    justify-content: center;
+    padding: 8% 2%;
+}
+
+.quote-container {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.quote-container i {
+    font-size: 60px;
+    margin-bottom: 4%;
+}
+
+blockquote {
+    margin-bottom: 4%;
+}

@@ -1,0 +1,78 @@
+/************Skills*************/
+
+#skills-section {
+    display: flex;
+    justify-content: center;
+    padding: 7% 2%;
+}
+
+.skills-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.skills-grid {
+    width: 100%;
+    max-width: 1100px;
+    margin-top: 2%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.skills-item {
+    width: 260px;
+    height: 230px;
+    margin: 1%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    border: solid 1px black;
+    cursor: pointer;
+}
+
+.skills-item:hover {
+    background-color: black;
+    color: white;
+}
+
+.skills-description {
+    width: 60%;
+    text-align: center;
+    margin: 0% auto 2%;
+}
+
+.skills-item i {
+    font-size: 80px;
+    margin-bottom: 5%;
+}
+
+/************Skills BREAKPOINTS*************/
+
+@media (max-width: 580px) {
+    
+    .project-item{
+    width: 180px;
+    height: 160px;
+    }
+
+    .skills-item i {
+        font-size: 80px;
+        margin-bottom: 5%;
+    }
+}
+
+@media (max-width: 360px) {
+    .skills-item {
+        width: 140px;
+        height: 130px;
+    }
+    .skills-item i {
+        font-size: 50px;
+        margin-bottom: 5%;
+    }
+}

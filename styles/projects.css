@@ -1,0 +1,50 @@
+/************Projects*************/
+
+#projects-section {
+    display: flex;
+    justify-content: center;
+    padding: 7% 2%;
+}
+
+.projects-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: flex-end;
+}
+
+.projects-grid {
+    margin-top: 2%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+
+.projects-item {
+    width: 300px;
+    height: 300px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    border-radius: 10px;
+    border: solid 1px black;
+    transition: transform 1s;
+}
+
+.projects-item:hover {
+    border: 5px solid black;
+    transform: rotate(360deg);
+}
+
+.project-name {
+    font-size: 1em;
+    text-transform: uppercase;
+    font-weight: 900;
+    letter-spacing: 0.04em;
+    font-style: italic;
+    text-align: center;
+}

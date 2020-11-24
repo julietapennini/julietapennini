@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Julieta Pennini"> 
+    <meta name="description" content="Julieta Pennini - Desarrolladora Front-End y Diseñadora Gráfica">
+    <meta name="keywords" content="Portafolio, Desarrollo Front-End, Desarrollo Web, Diseño">
+
+    <!---Favicon--->
+    <link rel="shortcut icon" href="./img/favicon.svg" type="image/x.icon">
+
+     <!---Tipografía--->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Ultra&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    
+    <!-- # Open Graph Meta Tags # -->
+    <!-- Facebook -->
+    <meta property="og:title" content="Julieta Pennini - Portfolio">
+    <meta property="og:description" content="Desarrolladora Front-End y Diseñadora Gráfica">
+    <meta property="og:type" content="article">
+    <meta property="og:site name" content="Julieta Pennini">
+    <meta property="og:url" content="https://julietapennini.github.io/julietapennini/">
+    <meta property="og:image" content="https://ibb.co/1X5sVfb">
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://julietapennini.github.io/julietapennini/">
+    <meta property="twitter:title" content="Julieta Pennini - Portfolio">
+    <meta property="twitter:description" content="Desarrolladora Front-End y Diseñadora Gráfica">
+    <meta property="twitter:image" content="https://ibb.co/1X5sVfb">
+    
+    <!---Links CSS-->
+     <link rel="stylesheet" href="./styles/base.css"/>
+    <link rel="stylesheet" href="./styles/header.css"/>
+    <link rel="stylesheet" href="./styles/about.css"/>
+    <link rel="stylesheet" href="./styles/skills.css"/>
+    <link rel="stylesheet" href="./styles/quote.css"/>
+    <link rel="stylesheet" href="./styles/projects.css"/>
+    <link rel="stylesheet" href="./styles/contact.css"/>
+    <link rel="stylesheet" href="./styles/footer.css"/>
+
+    <!---Íconos-->
+    <script src="https://kit.fontawesome.com/e724a02081.js" crossorigin="anonymous"></script>
+
+    <!---Título-->
+    <title>Julieta Pennini</title>
+</head>
+<body>
+    <!---Comienzo Header-->
+    <header>
+        <div class="nav-section">
+            <nav class="column nav-menu">
+                <!---Menú de navegación-->
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="#about-section" class="nav-link">Sobre mi</a></li>
+                    <li class="nav-item"><a href="#skills-section" class="nav-link">Conocimientos</a></li>
+                    <li class="nav-item"><a href="#projects-section" class="nav-link">Proyectos</a></li>
+                    <li class="nav-item"><a href="#contact-section" class="nav-link">Contacto</a></li>
+                </ul>
+                <!---Fin menú de navegación-->
+            </nav>
+        </div>
+    </header>
+    <!---Final Header-->
+    <main>
+        <!---Comienzo SECCION SOBRE MI-->
+        <section id="about-section">
+            <div class="colum about-container">
+                <div class="about-description">
+                    <p class="name-intro">¡Hola! Soy</p>
+                    <h1 class="name">Julieta</h1>
+                    <p class="tellMeMore">Desarrolladora Frontend y Diseñadora Gráfica</p>
+                    <a href="#projects-section" class="button">Lo que hago</a>
+                </div>
+                <img src="./img/about.jpg" alt class="about-img">
+            </div>
+        </section>
+        <!---Final SECCION SOBRE MI-->
+        <hr>
+        <!---Comienzo SECCION CONOCIMIENTOS-->
+        <section id="skills-section">
+            <div class="column skills-container">
+                <h2 class="skills-title">Conocimientos</h2>
+                <p class="skills-description">Frontend constituye todas las tecnologías de diseño y desarrollo web que corren en el navegador y que se encargan de la interactividad con los usuarios.</p>
+                <div class="skills-grid">
+                    <div class="skills-item html">
+                        <i class="fab fa-html5"></i>
+                        <p class="skill-title">HTML 5</p>
+                    </div>
+                    <div class="skills-item css">
+                        <i class="fab fa-css3-alt"></i>
+                        <p class="skill-title">CSS3</p>
+                    </div>
+                    <div class="skills-item sass">
+                        <i class="fab fa-sass"></i>
+                        <p class="skill-title">Sass</p>
+                    </div>
+                    <div class="skills-item javascript">
+                        <i class="fab fa-js-square"></i>
+                        <p class="skill-title">JavaScript</p>
+                    </div>
+                    <div class="skills-item react">
+                        <i class="fab fa-react"></i>
+                        <p class="skill-title">React</p>
+                    </div>
+                    <div class="skills-item git">
+                        <i class="fab fa-git-alt"></i>
+                        <p class="skill-title">GIT</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!---Fin SECCION CONOCIMIENTOS-->
+        <!---Comienzo SECCION PROYECTOS-->
+        <!---Cita-->
+        <section class="quote-section">
+            <div class="column quote-container">
+                <i class="fas fa-quote-right"></i>
+                <blockquote>
+                    <p class="quote">
+                        La vida es fascinante, sólo hay que mirarla a través de las gafas correctas.
+                    </p>
+                </blockquote>
+                <h2 class="quote_author">Alexandre Dumas</h2>
+            </div>
+        </section>
+        <!---Fin Cita-->
+        <!---Proyectos-->
+        <section id="projects-section">
+            <div class="column projects-container">
+                <h2 class="projects-title">Mis proyectos</h2>
+                <p class="projects-description">Durante el curso de Ada IT especializado en Front-End developer desarrallomos todos estos proyectos. Y pronto, vendrán muchos más.</p>
+                <!---Grilla de proyectos-->
+                <div class="column projects-grid">
+                    <a href="#" target="_blank" rel="noopener noreferrer" class="projects-item" data-languaje="html-css">
+                        <figure>
+                            <img src="./img/project-pink.jpg" alt="portfolio" class="protect-thumb">
+                            <figcaption class="project-name">Portfolio</figcaption>
+                        </figure>
+                    </a>
+                    <a href="#" target="_blank" rel="noopener noreferrer" class="projects-item" data-languaje="javascript">
+                        <figure>
+                            <img src="./img/project-violet.jpg" alt="generador-memes" class="protect-thumb">
+                            <figcaption class="project-name">Generador de memes</figcaption>
+                        </figure>
+                    </a>
+                    <a href="#" target="_blank" rel="noopener noreferrer" class="projects-item" data-languaje="javascript">
+                        <figure>
+                            <img src="./img/project-blue.jpg" alt="juego" class="protect-thumb">
+                            <figcaption class="project-name">Match tres</figcaption>
+                        </figure>
+                    </a>
+                    <a href="#" target="_blank" rel="noopener noreferrer" class="projects-item" data-languaje="javascript">
+                        <figure>
+                            <img src="./img/project-green.jpg" alt="app-gastos" class="protect-thumb">
+                            <figcaption class="project-name">App gastos</figcaption>
+                        </figure>
+                    </a>
+                    <a href="#" target="_blank" rel="noopener noreferrer" class="projects-item" data-languaje="javascript">
+                        <figure>
+                            <img src="./img/project-yellow.jpg" alt="admin-reuniones" class="protect-thumb">
+                            <figcaption class="project-name">Admin reuniones</figcaption>
+                        </figure>
+                    </a>
+                    <a href="#" target="_blank" rel="noopener noreferrer" class="projects-item" data-languaje="react">
+                        <figure>
+                            <img src="./img/project-red.jpg" alt="todo-app" class="protect-thumb">
+                            <figcaption class="project-name">Todo App</figcaption>
+                        </figure>
+                    </a>
+                </div>
+                <!---Grilla de proyectos-->
+            </div>
+        </section>
+        <!---Fin SECCION PROYECTOS-->
+        <hr>
+        <!---Comienzo SECCION CONTACTO-->
+        <section id="contact-section">
+            <div class="column media-container">
+                <!---Links de redes sociales-->
+                <section class="contact-column">
+                    <h2 class="section-title">Contactame</h2>
+                    <p class="contact-description">Si por algún motivo necesitás hablarme, podés comunicarte mediante éstas redes. Estoy pendiente y contesto rápido, así que no dudes en enviarme un mensaje privado.</p>
+                    <ul class="contact-social-list">
+                        <li class="contact-item">
+                            <a href class="social-link twitter-link" aria-label="Twitter">
+                                <i aria-hidden="true" class="fab fa-twitter contact-social-icon"></i>
+                                @Julieta
+                            </a>
+                        </li>
+                        <li class="contact-item">
+                            <a href class="social-link github-link" aria-label="GitHub">
+                                <i aria-hidden="true" class="fab fa-github-alt contact-social-icon"></i>
+                                /JulietaPennini
+                            </a>
+                        </li>
+                        <li class="contact-item">
+                            <a href class="social-link twitter-link" aria-label="Linkedin">
+                                <i aria-hidden="true" class="fab fa-linkedin-in contact-social-icon"></i>
+                                /JulietaPennini
+                            </a>
+                        </li>
+                        <li class="contact-item">
+                            <a href class="social-link email-link" aria-label="Email">
+                                <i aria-hidden="true" class="fas fa-paper-plane contact-social-icon"></i>
+                                julietapennini@gmail.com
+                            </a>
+                        </li>
+                    </ul>
+                </section>
+                <!---Final links de redes sociales-->
+                <section class="form-column">
+                    <h2 class="section-title">Escribime</h2>
+                    <!---Formulario-->
+                    <form class="contact-form" method="POST">
+                        <div class="input-name-wrapper">
+                            <div class="form-control firstname">
+                                <label for="firstname">Nombre</label>
+                                <input type="text" name="Nombre" id="firstname" class="input-control input-firstname" placeholder="p. ej.: Julieta" aria-label="Nombre" required>
+                                <i class="far fa-times-circle icon-invalid" aria-hidden="true"></i>
+                                <i class="far fa-check-circle icon-valid" aria-hidden="true"></i>
+                            </div>
+                            <div class="form-control lastname">
+                                <label for="lastname">Apellido</label>
+                                <input type="text" name="Apellido" id="lastname" class="input-control input-lastname" placeholder="p. ej.: Pennini" aria-label="Apellido" required>
+                                <i class="far fa-times-circle icon-invalid" aria-hidden="true"></i>
+                                <i class="far fa-check-circle icon-valid" aria-hidden="true"></i>
+                            </div>
+                        </div>
+                        <div class="form-control email">
+                            <label for="email">Email</label>
+                            <input type="email" name="E-mail" id="email" class="input-control input-email" placeholder="p. ej.: julietapennini@gmail.com" aria-label="Email" required>
+                            <i class="far fa-times-circle icon-invalid" aria-hidden="true"></i>
+                            <i class="far fa-check-circle icon-valid" aria-hidden="true"></i>
+                        </div>
+                        <div class="form-control message">
+                            <label for="message">Mensaje</label>
+                            <textarea name="Mensaje" id="message" cols="30" rows="10" class="input-control input-message" placeholder="Escriba un mensaje aquí" aria-label="Mensaje" required></textarea>
+                            <i class="far fa-times-circle icon-invalid" aria-hidden="true"></i>
+                            <i class="far fa-check-circle icon-valid" aria-hidden="true"></i>
+                        </div>
+                        <button type="submit" class="send-button">Enviar</button>
+                    </form>
+                    <!---Fin formulario-->
+                </section>
+            </div>
+        </section>
+    <!---Final SECCION CONTACTO-->
+    </main>
+    <!---Comienzo FOOTER-->
+    <footer class="footer-section">
+        <div class="colum footer-container">
+            <!---Navegación FOOTER-->
+            <nav class="footer-nav">
+                <ul class="footer-nav-list">
+                    <li class="footer-nav-item">
+                        <a href="#about-section" class="footer-nav-link">Sobre mi</a>
+                    </li>
+                    <li class="footer-nav-item">
+                        <a href="#skills-section" class="footer-nav-link">Conocimientos</a>
+                    </li>
+                    <li class="footer-nav-item">
+                        <a href="#projects-section" class="footer-nav-link">Proyectos</a>
+                    </li>
+                    <li class="footer-nav-item">
+                        <a href="#contact-section" class="footer-nav-link">Contacto</a>
+                    </li>
+                </ul>
+            </nav>
+            <!---Fin Navegación FOOTER-->
+            <!---Redes FOOTER-->
+            <div class="footer-social">
+                <ul class="footer-social-list">
+                    <li class="footer-social-item">
+                        <a href="https://twitter.com/julietapennini" class="footer-social-link twitter-link" aria-label="Twitter">
+                            <i class="fab fa-twitter-square"></i>
+                        </a>
+                    </li>
+                    <li class="footer-social-item">
+                        <a href="https://github.com/julietapennini" class="footer-social-link github-link" aria-label="GitHub">
+                            <i class="fab fa-github-square"></i>
+                        </a>
+                    </li>
+                    <li class="footer-social-item">
+                        <a href="https://www.linkedin.com/in/julieta-pennini-b6360371/" class="footer-social-link linkedin-link" aria-label="Linkedin">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                    </li>
+                    <li class="footer-social-item">
+                        <a href="https://www.instagram.com/julietapennini/?hl=es-la" class="footer-social-link instagram-link" aria-label="Instagram">
+                            <i class="fab fa-instagram-square"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <!---Fin Redes FOOTER-->
+            <p class="done-by">Hecho con 🤍</p>
+        </div>
+    </footer>
+    <!---Final FOOTER-->
+</body>
+</html>

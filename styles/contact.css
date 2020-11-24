@@ -1,0 +1,244 @@
+/************Contact*************/
+
+#contact-section {
+    display: flex;
+    justify-content: center;
+    padding: 7% 2%; 
+}
+
+.media-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact-column {
+    width: 48%;
+    max-width: 1100px;
+}
+
+.contact-description {
+    margin-bottom: 4%;
+}
+
+.social-link {
+    margin: 4% 0%;
+    color: black;
+}
+
+/**___________Contactame___________**/
+
+.contact-item {
+    margin-bottom: 3%;
+    font-size: 1em;
+}
+
+a.social-link i.contact-social-icon {
+    width: 2.5rem;
+    height: 2.5rem;
+    text-align: center;
+    font-size: 20px;
+    padding: 2%;
+}
+
+.social-link:hover{
+    color: pink;
+}
+
+.social-link:hover .contact-social-icon {
+    background-color:pink;
+    color:rgb(155, 140, 140);
+    border-radius: 50%;
+}
+
+/**___________Escribime___________**/
+
+/*Formulario*/
+
+.form-column {
+    width: 48%;
+    max-width: 1100px;
+}
+
+.input-name-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.form-control {
+    margin-bottom: 4%;
+    position: relative;
+}
+
+.firstname, .lastname {
+    width: 48%;
+}
+
+.input-name-wrapper .form-control:nth-of-type(1) {
+    margin-right: 2%;
+}
+  
+.input-name-wrapper .form-control:nth-of-type(2) {
+    margin-left: 2%;
+}
+
+.email, .message {
+    width: 100%;
+}
+
+label {
+    margin-bottom: 1.5%;
+    display: block;
+}
+
+input {
+    width: 100%;
+    background-color: pink;
+    height: 40px;
+    border-radius: 20px;
+    border-style: none;
+    padding-left: 25px;
+}
+
+input:focus {
+    border: none;
+    outline: none;
+    outline-width: 0;
+    background-color: white;
+}
+
+textarea {
+    width: 100%;
+    background-color: pink;
+    height: 300px;
+    border-radius: 20px;
+    border-style: none;
+    padding: 15px 0px 0px 25px;
+}
+
+textarea:focus {
+    border: none;
+    outline: none;
+    outline-width: 0;
+    background: coral;
+}
+
+textarea::placeholder {
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+input:valid:focus,
+textarea:valid:focus {
+  box-shadow: 0px 0px 5px #88c459;
+}
+
+input:invalid:not(:placeholder-shown):focus,
+textarea:invalid:not(:placeholder-shown):focus {
+  box-shadow: 0px 0px 5px #f5414f;
+}
+
+input:invalid:not(:placeholder-shown),
+textarea:invalid:not(:placeholder-shown) {
+  border: 1px solid #f5414f;
+}
+
+input:valid,
+textarea:valid {
+  border: 1px solid #88c459;
+}
+
+
+/*Ícono*/
+
+i.icon-invalid, i.icon-valid {
+    display: none;
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    transform: translateY(50%);
+}
+
+.icon-valid {
+  color: #88c459;
+}
+
+.icon-invalid {
+  color: #f5414f;
+}
+
+input:valid ~ .icon-valid,
+textarea:valid ~ .icon-valid,
+input:not(:placeholder-shown):invalid ~ .icon-invalid,
+textarea:not(:placeholder-shown):invalid ~ .icon-invalid {
+  display: block;
+}
+
+/*Botón Submit*/
+
+.send-button {
+    border-style: none;
+    font-size: 0.8em;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    font-style: italic;
+    font-weight: 700;
+    background-color: black;
+    color: white;
+    padding: 1.2vh 4vh;
+    border-radius: 50px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.send-button:focus {
+    border: none;
+    outline: none;
+    outline-width: 0;
+}
+
+.send-button:hover {
+    background-color: red;
+}
+
+/************Contact BREAKPOINTS*************/
+
+@media (max-width: 1100px) {
+
+    .media-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .contact-column {
+        width: 100%;
+        margin-bottom: 10%;
+    }
+
+    .input-name-wrapper {
+        flex-direction: column;
+    }
+
+    .form-column {
+        width: 100%;
+    }
+
+    .firstname, .lastname {
+        width: 100%;
+    }
+
+    .input-name-wrapper .form-control:nth-of-type(1) {
+        margin-right: 0%;
+    }
+      
+    .input-name-wrapper .form-control:nth-of-type(2) {
+        margin-left: 0%;
+    }
+
+    .send-bnt {
+        width: 100%;
+    }
+
+    textarea {
+        height: 250px;
+    }
+}
