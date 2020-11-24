@@ -1,7 +1,7 @@
 /************Quote*************/
 
 .quote-section {
-    background-color:black;
+    background-color:var(--second-color);
     display: flex;
     justify-content: center;
     padding: 8% 2%;
@@ -13,7 +13,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    color: white;
+    color: var(--main-color);
 }
 
 .quote-container i {

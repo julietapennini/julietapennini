@@ -1,4 +1,5 @@
 /************Base*************/
+
 * {
     box-sizing: border-box;
     padding: 0;
@@ -13,9 +14,17 @@
 /************Layout*************/
 
 /*Colores*/
+
 :root {
     --main-color: #FFFFFF;
-    --second-color: #FFFFFF;
+    --second-color: #000000;
+    --heart: #F4D7EE;
+    --flower: #FCEBF9;
+    --sky: #7CEDE5;
+    --star: #EDEB98;
+    --fire: #BC2A2A;
+    --plump: #5550BC;
+    --grass: #3E822B;
 }
 
 /*Texto*/

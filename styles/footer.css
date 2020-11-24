@@ -1,7 +1,7 @@
 /************Footer*************/
 
 .footer-section {
-    background-color: black;
+    background-color: var(--second-color);
     display: flex;
     justify-content: center;
     padding: 4% 2% 3%; 
@@ -14,7 +14,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    color:white;
+    color: var(--main-color);
 }
 
 .footer-nav {
@@ -41,7 +41,7 @@
 }
 
 div.footer-container ul li a {
-    color: white;
+    color: var(--main-color);
     cursor: pointer;
     font-size: 0.76em;
     letter-spacing: 0.2em;
@@ -50,6 +50,10 @@ div.footer-container ul li a {
 
 div.footer-container ul li a.footer-social-link {
     font-size: 30px;
+}
+
+div.footer-container ul li a.footer-social-link:hover {
+    color: var(--sky);
 }
 
 /*Footer MEDIA*/
@@ -64,6 +68,7 @@ div.footer-container ul li a.footer-social-link {
 .footer-nav-link {
 font-size: 1em;
 }
+
 
 /************Footer BREAKPOINTS*************/
 

@@ -36,8 +36,8 @@
 }
 
 .skills-item:hover {
-    background-color: black;
-    color: white;
+    background-color: var(--second-color);
+    color: var(--main-color);
 }
 
 .skills-description {

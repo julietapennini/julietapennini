@@ -45,12 +45,16 @@
 .button {
     width: 45%;
     padding: 0.8vh 4vh;
-    background-color: black;
-    color: white;
+    background-color: var(--second-color);
+    color: var(--main-color);
     border-radius: 50px;
     text-align: center;
     cursor: pointer;
     margin-bottom: 8%;
+}
+
+.button:hover {
+    background-color: var(--plump);
 }
 
 /************About BREAKPOINTS*************/
@@ -93,7 +97,6 @@
     }
 
     .button {
-        width:auto;
         margin-bottom: 10%;
     }
 }

@@ -29,14 +29,14 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    color: black;
+    color: var(--second-color);
     border-radius: 10px;
-    border: solid 1px black;
+    border: solid 1px var(--second-color);
     transition: transform 1s;
 }
 
 .projects-item:hover {
-    border: 5px solid black;
+    border: 5px solid var(--second-color);
     transform: rotate(360deg);
 }
 
