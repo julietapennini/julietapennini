@@ -1,8 +1,8 @@
 # Portfolio Personal - Proyecto ADA
 
 ## Para ver el proyecto completo hacé click acá 👇🏻
-- [GitHub Pages](https://julietapennini.github.io/julietapennini/)
-- [Netlify](https://epic-goldberg-17b45d.netlify.app)
+- [GitHub Pages](https://julietapennini.github.io/proyecto-portfolio/)
+- [Netlify](https://trusting-brattain-ab0dfc.netlify.app)
 ***
 
 # Índice
