@@ -1,33 +1,19 @@
-<<<<<<< HEAD
 /************Projects*************/
 
 #projects-section {
-=======
-/* Proyects base*/
-
-#projects-section{
->>>>>>> 972ae4625963b7a44e9a15f7b77c28c3c6116b83
     display: flex;
     justify-content: center;
     padding: 7% 2%;
 }
 
-<<<<<<< HEAD
 .projects-container {
-=======
-.projects-container{
->>>>>>> 972ae4625963b7a44e9a15f7b77c28c3c6116b83
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-content: flex-end;
 }
 
-<<<<<<< HEAD
 .projects-grid {
-=======
-.projects-grid{
->>>>>>> 972ae4625963b7a44e9a15f7b77c28c3c6116b83
     margin-top: 2%;
     display: flex;
     flex-wrap: wrap;
@@ -35,28 +21,17 @@
     align-content: center;
 }
 
-<<<<<<< HEAD
 .projects-item {
     width: 300px;
     height: 300px;
     margin: 10px;
     display: flex;
     flex-direction: column;
-=======
-/* Proyects styles*/
-
-.projects-item{
-    flex-basis: 300px;
-    height: 300px;
-    margin: 10px;
-    display: flex;
->>>>>>> 972ae4625963b7a44e9a15f7b77c28c3c6116b83
     justify-content: center;
     align-items: center;
     color: black;
     border-radius: 10px;
     border: solid 1px black;
-<<<<<<< HEAD
     transition: transform 1s;
 }
 
@@ -66,16 +41,6 @@
 }
 
 .project-name {
-=======
-}
-
-.projects-item:hover{
-    background-color: black;
-    color: white;
-}
-
-.project-name{
->>>>>>> 972ae4625963b7a44e9a15f7b77c28c3c6116b83
     font-size: 1em;
     text-transform: uppercase;
     font-weight: 900;
